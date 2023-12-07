@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-family: arial;
+  font-weight: 900;
+}
+h2{
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+}
+body {
+  background: linear-gradient(90deg, #6B72E1, #7ECE90);
+  font-family: 'Lora', serif;
+  color: #575F7D;
+  font-size: 17px;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: #7ECE90;
+  /* text-decoration: underline; */
+}
+.text-justify{
+  text-align: justify;
+  padding: 20px;
+}
+.square{
+  background-color: rgb(252, 249, 249);
+  text-align: center;
+  opacity: 0.90;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 24px auto;
+}
+.image{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 5px 3px rgba(0,0,0,.1);
+}
+.btn-blue{
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+}
+.btn-blue:hover {
+  border: 1px solid #6B72E1;
+  color: #6B72E1;
+  background-color: white;
+}
+#puce-horizontale{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .square {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .square {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .square {
+    width: 300px;
+  }
+}
